@@ -1,5 +1,4 @@
 public class Stack{
-    public static void main(String [] args){
         int size;
         int top;
         int[] array;
@@ -30,7 +29,7 @@ public class Stack{
         int pop(){
             int previousTop = top;
             if (isEmpty()){
-                System.out.println("Stack underflow")
+                System.out.println("Stack underflow");
             } else {
                 top--;
             }
@@ -63,5 +62,4 @@ public class Stack{
             stack.push(67);
             stack.printItems();
         }
-    }
 }
